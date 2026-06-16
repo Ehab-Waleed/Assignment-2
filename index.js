@@ -137,3 +137,10 @@ fs.writeFile("./async.txt", "Async save", (err) => {
 })
 
 // ***************************************************** *//
+
+// 16- //
+const isExist = fs.existsSync("./notes.txt")
+console.log(isExist);
+
+// ***************************************************** *//
+
