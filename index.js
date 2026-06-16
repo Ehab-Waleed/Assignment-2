@@ -122,3 +122,10 @@ eventEmitter.on("login", (username) => {
 eventEmitter.emit("login", "Ahmed")
 
 // ***************************************************** *//
+
+// 14- //
+const content = fs.readFileSync(path.resolve("./notes.txt"), { encoding: "utf-8" })
+console.log(content);
+
+// ***************************************************** *//
+
