@@ -144,3 +144,16 @@ console.log(isExist);
 
 // ***************************************************** *//
 
+// 17- //
+const os = require("node:os")
+const getInfo = () => {
+    const info = {
+        platform: os.platform(),
+        Arch: os.arch()
+    }
+    return info
+}
+console.log(getInfo());
+
+// ***************************************************** *//
+
