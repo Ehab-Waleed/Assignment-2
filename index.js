@@ -64,6 +64,14 @@ console.log(joinPath("src","components", "App.js"));
 
 // ***************************************************** *//
 
+// 8- //
+const resPath = (mypath) => {
+    return path.resolve(mypath)
+}
+console.log(resPath("\index.js"));
+
+// ***************************************************** *//
+
 
    
    
