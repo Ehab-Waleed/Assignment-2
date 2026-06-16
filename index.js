@@ -105,3 +105,12 @@ creatFolder()
 
 // ***************************************************** *//
 
+// 12- //
+const {EventEmitter} = require("node:events")
+const eventEmitter = new EventEmitter()
+eventEmitter.on("start", () => {
+    console.log("Welcome event triggered!");
+})
+eventEmitter.emit("start")
+
+// ***************************************************** *//
