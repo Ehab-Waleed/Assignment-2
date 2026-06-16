@@ -114,3 +114,11 @@ eventEmitter.on("start", () => {
 eventEmitter.emit("start")
 
 // ***************************************************** *//
+
+// 13- //
+eventEmitter.on("login", (username) => {
+    console.log(`User logged in: ${username}`);
+})
+eventEmitter.emit("login", "Ahmed")
+
+// ***************************************************** *//
