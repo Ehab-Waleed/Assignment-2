@@ -16,6 +16,19 @@ console.log(getFileName(resolvedPath));
 
 // ***************************************************** *//
 
+// 3- //
+const pathObject = {
+    dir: "\\Folder",
+    name: "app",
+    ext: ".js"
+}
+const buildPath = (obj) => {
+    return path.format(obj)
+}
+console.log(buildPath(pathObject));
+
+// ***************************************************** *//
+
 
    
    
