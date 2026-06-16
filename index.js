@@ -79,3 +79,20 @@ console.log(resPath("\index.js"));
 console.log(joinTwoPaths("/folder1", "folder2/file.txt"));  
 
 // ***************************************************** *//
+
+// 10- //
+const fs = require("node:fs")
+const deleteFile = async (mypath) => {
+    let resolved = path.resolve(mypath)
+    await fs.unlink(resolved, (err) => {
+        if (err) {
+            console.log("File not Found");
+        } else {
+            console.log("file deleted succesfully");
+        }
+    })
+}
+deleteFile("./file.txt")
+
+// ***************************************************** *//
+
