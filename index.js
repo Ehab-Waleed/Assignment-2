@@ -29,6 +29,14 @@ console.log(buildPath(pathObject));
 
 // ***************************************************** *//
 
+// 4- //
+const getFileExt = (filepath) => {
+     return path.extname(filepath)   
+}
+console.log(getFileExt(resolvedPath));
+
+// ***************************************************** *//
+
 
    
    
