@@ -48,6 +48,15 @@ console.log(parsePath(resolvedPath));
 
 // ***************************************************** *//
 
+// 6- //
+const chkPath = (mypath) => {
+    return path.isAbsolute(mypath)
+}
+console.log(chkPath(resolvedPath));
+
+// ***************************************************** *//
+
+
 
    
    
