@@ -56,6 +56,13 @@ console.log(chkPath(resolvedPath));
 
 // ***************************************************** *//
 
+// 7- //
+const joinPath = (...paths) => {
+    return path.join(...paths)
+}
+console.log(joinPath("src","components", "App.js"));
+
+// ***************************************************** *//
 
 
    
