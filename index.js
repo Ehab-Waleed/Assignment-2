@@ -37,6 +37,17 @@ console.log(getFileExt(resolvedPath));
 
 // ***************************************************** *//
 
+// 5- //
+const parsePath = (filepath) => {
+    const parsed = path.parse(filepath)
+    let { name, ext } = parsed
+    return { name, ext }
+    
+}
+console.log(parsePath(resolvedPath));
+
+// ***************************************************** *//
+
 
    
    
